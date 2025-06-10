@@ -1,0 +1,16 @@
+class Solution:
+    def k_diff_pairs(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        if k<=0:
+            return 0
+        count = 0
+        num_set= set nums
+        for num in num_set:
+            if num+k in num set:
+                count+=1
+        
+        return count
