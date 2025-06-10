@@ -1,8 +1,8 @@
 class Solution(object):
     def sort_even_odd_cnt(nums):
         n = len(nums)
-        even_count = [0] * 101
-        odd_count = [0] * 101
+        even_count = [0] * n/2
+        odd_count = [0] * n/2
 
         for i, v in enumerate(nums):
             if i % 2 == 0:
