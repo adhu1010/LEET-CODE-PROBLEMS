@@ -9,3 +9,4 @@ class Solution(object):
             empty = new_bottles + (empty % numExchange)
 
         return total
+
