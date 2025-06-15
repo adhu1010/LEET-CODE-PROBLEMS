@@ -16,3 +16,7 @@ class Solution(object):
                 curr_tank = 0
 
         return start_station if total_tank >= 0 else -1
+
+#Time Complexity: O(n)
+#Space Complexity: O(1)
+# This code defines a class `Solution` with a method `canCompleteCircuit` that determines if there is a starting gas station from which a car can complete a circuit around a circular route.
