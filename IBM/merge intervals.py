@@ -17,3 +17,6 @@ class Solution (object):
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
         return merged
+#Time Complexity: O(n log n) due to sorting
+#Space Complexity: O(n) for the merged list
+# This code defines a class `Solution` with a method `merge` that merges overlapping intervals from a list of intervals.
