@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def pathSum(self, nums):
         tree = {}
         for num in nums:
@@ -25,3 +25,6 @@ class Solution:
 
         dfs(1, 1, 0)
         return self.total
+
+# Time Complexity: O(n) where n is the number of elements in nums, as we traverse each element once.
+# Space Complexity: O(n) for storing the tree structure in a dictionary.
