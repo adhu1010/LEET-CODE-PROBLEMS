@@ -16,3 +16,6 @@ class Solution(object):
                         res = candidate
 
         return res
+
+# Time Complexity: O(n * m) where n is the number of strings and m is the maximum length of a string, due to the nested loops and string operations.
+# Space Complexity: O(n * m) for storing the processed strings and the result.

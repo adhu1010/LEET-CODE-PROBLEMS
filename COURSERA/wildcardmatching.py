@@ -17,3 +17,6 @@ class Solution (object):
                     dp[i][j] = dp[i][j - 1] or dp[i - 1][j]
 
         return dp[m][n]
+
+# Time Complexity: O(m * n) where m is the length of string s and n is the length of pattern p.
+# Space Complexity: O(m * n) for the dp table used to store intermediate results.

@@ -17,3 +17,6 @@ class Solution(object):
         sorted_teams = sorted(ranking.items(), key=lambda item: (item[1], item[0]))
 
         return ''.join([team for team, _ in sorted_teams])
+
+# Time Complexity: O(n * m log m) where n is the number of votes and m is the number of teams, due to sorting.
+# Space Complexity: O(m) for storing the ranking of each team.
