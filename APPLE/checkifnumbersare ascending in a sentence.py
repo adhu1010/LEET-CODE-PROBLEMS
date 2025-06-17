@@ -8,3 +8,5 @@ class Solution(object):
                     return False
                 prev = num
         return True
+# # Time Complexity: O(n) where n is the length of the string s, as we traverse the string once.
+# # Space Complexity: O(1) since we only use a few variables to keep track of the previous number and the current token.
