@@ -13,3 +13,5 @@ class ProductOfNumbers:
         if k >= len(self.prefix_products):
             return 0
         return self.prefix_products[-1] // self.prefix_products[-k-1]
+#Time Complexity: O(1) for add operation, O(1) for getProduct operation.
+#Space Complexity: O(n) where n is the number of elements added, as we store the prefix products in a list.
