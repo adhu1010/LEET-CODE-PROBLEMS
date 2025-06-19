@@ -12,4 +12,4 @@ class Solution:
 
         return max_len
 # Time Complexity: O(n) where n is the length of the string s, as we iterate through the string once.
-# Space Complexity: O(1) since we are using a constant amount of space for the variables max_len and current_len, regardless of the input size.S
+# Space Complexity: O(1) since we are using a constant amount of space for the variables max_len and current_len, regardless of the input size.
