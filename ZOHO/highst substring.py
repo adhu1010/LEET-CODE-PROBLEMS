@@ -19,3 +19,5 @@ class Solution(object):
     
 #time complexity: O(n), where n is the length of the string s.
 #space complexity: O(min(n, m)), where n is the length of the string s and m is the size of the character set.
+solution = Solution()
+print(solution.lengthOfLongestSubstring("abcabcbb"))  # Output: 3
