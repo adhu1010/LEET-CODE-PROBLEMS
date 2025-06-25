@@ -21,3 +21,7 @@ class Solution:
                 end = i + max_len // 2
 
         return s[start:end + 1]
+
+# Time Complexity: O(n^2), where n is the length of the string s, due to the expansion from each character.
+# Space Complexity: O(1), as we are using only a few variables for indices and lengths.
+# The function finds the longest palindromic substring by expanding around each character and checking both odd and even length palindromes.S
