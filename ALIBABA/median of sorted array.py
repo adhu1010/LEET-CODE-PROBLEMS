@@ -8,4 +8,6 @@ class Solution:
         else:
             return(float(l3[n//2]))
 
-        
+# Time Complexity: O((m+n) log(m+n)), where m is the length of nums1 and n is the length of nums2, due to the sorting step.
+# Space Complexity: O(m+n) for storing the combined list l3.
+# The function combines two sorted arrays, sorts the combined array, and then finds the median.
